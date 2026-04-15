@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <h2>Project Error Handling and arrow functions</h2>
+        <p>This is a example demonstration of to use <b>catch</b> to display error messages.</p>
+        <p id="result"></p>
+        <script>
+            product = (a, b) => a * b;
+            try {
+                document.getElementById("result").innerHTML = a;
+            } catch (error) {
+                document.getElementById("result").innerHTML = error.message;
+            }
+
+        </script>
+    </body>
+</html>
